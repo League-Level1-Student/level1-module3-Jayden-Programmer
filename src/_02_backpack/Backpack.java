@@ -12,14 +12,17 @@ public class Backpack {
 	public void packAndCheck() {
 		// Your mission is to go to school.
 		// 1. First you need to put all your supplies into your backpack - use
-		// the putInBackpack(...) methods
+		// the putInBackpack(...) methods 
+		putInBackpack(new Pencil());
+		putInBackpack(new Ruler());
+		putInBackpack(new Textbook());
 		
 		goToSchool();
 	}
 
 
 
-	public void putInBackpack(Pencil supply) {
+	public void putInBackpack(Pencil supply) { 
 		this.pencil = supply;
 		log(supply);
 	}
@@ -90,3 +93,4 @@ class Textbook extends Supply {
 		System.out.println("The history of Iceland is long and interesting");
 	}
 }
+ 
