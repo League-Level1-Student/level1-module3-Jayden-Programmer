@@ -10,7 +10,7 @@ public class Smiley extends JLabel {
 	public static final String YELLOW = "yellow";
 	public static final String RED = "red";
 	public static final String GREEN = "green";
-	public static final String BLUE = "blue";
+	public static final String BLUE = "blue"; 
 	public static String color = BLUE;
 	
 	Smiley(){ 
@@ -23,7 +23,7 @@ public class Smiley extends JLabel {
 		return icon;
 	}
 	
-	public static void setColor(String newColor) {
+	public static void setColor(String newColor) {  
 		color = newColor;
 	}
 }

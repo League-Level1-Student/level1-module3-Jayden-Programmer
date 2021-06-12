@@ -67,7 +67,7 @@ class Pencil extends Supply {
 		System.out.println("You got your pencil!");
 	}
 
-	public void write(String writing) {
+	public void write(String writing) { 
 		System.out.println(writing);
 	}
 }

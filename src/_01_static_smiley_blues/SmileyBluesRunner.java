@@ -4,5 +4,5 @@ public class SmileyBluesRunner {
 	public static void main(String[] args) {
 		SmileyBlues smileyRunner = new SmileyBlues();
 		smileyRunner.start();
-	} 
+	}   
 }
