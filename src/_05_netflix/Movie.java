@@ -13,7 +13,7 @@ public class Movie implements Comparable<Movie> {
 
 	public Movie(String title, int stars) {
 		this.title = title;
-		this.stars = stars;
+		this.stars = stars;  
 	}
 
 	public String getTitle() {

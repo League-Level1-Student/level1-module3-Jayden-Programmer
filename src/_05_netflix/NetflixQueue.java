@@ -37,6 +37,11 @@ public class NetflixQueue {
 		System.out.println("Your Netflix queue contains: ");
 		for (Movie movie : movies) {
 			System.out.println(movie);
+			
+			
+			
+				
+				
 		}
 	}
 
