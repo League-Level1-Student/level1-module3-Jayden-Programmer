@@ -9,7 +9,5 @@
 	<classpathentry kind="lib" path="src/gridworld.jar"/>
 	<classpathentry kind="lib" path="src/javazoom.jar"/>
 	<classpathentry kind="lib" path="src/robot.jar"/>
-	<classpathentry kind="lib" path="src/_03_jars/_2_jukebox/Jukebox.java"/>
-	<classpathentry kind="lib" path="src/_03_jars/_2_jukebox/JukeboxRunner.java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
